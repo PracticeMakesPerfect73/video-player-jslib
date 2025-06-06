@@ -15,6 +15,8 @@
     }
     .container-buttons {
         background-color: black;
+        display: flex;
+        align-items: center;
     }
     .button {
       border: none;
@@ -25,6 +27,9 @@
       font-size: 24px;
     }
     .js-video-container {
+      flex-grow: 1;
+    }
+    .extra-space {
       flex-grow: 1;
     }
   </style>
@@ -45,6 +50,10 @@
       </button>
       <button class="js-mute-button button">
         <i class="fa fa-volume-off" aria-hidden="true"></i>
+      </button>
+      <div class="extra-space"></div>
+      <button class="js-fullscreen-button button">
+        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
       </button>
     </div>
      
