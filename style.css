@@ -1,0 +1,27 @@
+.player {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.5);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.container-buttons {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.vp-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color:white;
+  margin: 5px;
+  font-size: 24px;
+}
+.vp-container {
+  flex-grow: 1;
+}
+.extra-space {
+  flex-grow: 1;
+}
