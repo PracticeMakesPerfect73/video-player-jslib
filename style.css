@@ -54,4 +54,13 @@
   border-style: solid;
   border-width: 3px;
   border-color: white;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.vp-progress:hover .vp-progress-slider {
+  opacity: 1;
+  transition-timing-function: ease-in;
 }
