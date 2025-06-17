@@ -12,14 +12,13 @@
   align-items: center;
 }
 .vp-button {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 45px;
   border: none;
   cursor: pointer;
   background-color: transparent;
   color:white;
-  margin: 5px;
-  font-size: 24px;
+  font-size: 18px;
 }
 .vp-container {
   flex-grow: 1;
