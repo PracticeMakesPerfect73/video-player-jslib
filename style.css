@@ -20,6 +20,9 @@
   color:white;
   font-size: 18px;
 }
+.vp-button:focus {
+  outline: none;
+}
 .vp-container {
   flex-grow: 1;
 }
