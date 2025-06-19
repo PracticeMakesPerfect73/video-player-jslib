@@ -6,49 +6,68 @@
   display: flex;
   flex-direction: column;
 }
+
 .container-buttons {
   background-color: black;
   display: flex;
   align-items: center;
 }
+
 .vp-button {
   width: 35px;
   height: 45px;
   border: none;
   cursor: pointer;
   background-color: transparent;
-  color:white;
+  color: white;
   font-size: 18px;
 }
+
 .vp-button:focus {
   outline: none;
 }
+
 .vp-container {
   flex-grow: 1;
 }
+
+.time-progress-container {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
 .time-display {
   color: white;
   font-size: 16px;
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  flex-shrink: 0;
 }
+
 .vp-progress {
   background-color: grey;
   border-radius: 10px;
   height: 5px;
   flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  min-width: 100px;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 10px;
 }
+
 .vp-progress-bar {
   background-color: red;
   height: 100%;
   width: 20%;
 }
+
 .vp-progress-slider {
   width: 8px;
   height: 8px;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <title>Пример подключения плеера</title>
   <link rel="stylesheet" href="style.css">
@@ -10,10 +11,10 @@
   <script src="https://kit.fontawesome.com/092141c233.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
 </head>
+
 <body>
   <div id="player" class="player">
     <div class="js-video-container vp-container"></div>
-    <!-- Here can be placed player controls: play and volume buttons -->
     <div class="container-buttons">
       <button class="js-play-button vp-button">
         <i class="fa fa-play" aria-hidden="true"></i>
@@ -28,23 +29,25 @@
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
 
-      <div class="time-display">
-        <span class="js-current-time">00:00</span>
-      </div>
-      <div class="js-progress vp-progress">
-        <div class="js-progress-slider vp-progress-bar"></div>
-        <div class="vp-progress-slider"></div>
-      </div>
-      <div class="time-display">
-        <span class="js-duration">00:00</span>
+      <div class="time-progress-container">
+        <div class="time-display">
+          <span class="js-current-time">00:00</span>
+        </div>
+        <div class="js-progress vp-progress">
+          <div class="js-progress-slider vp-progress-bar"></div>
+          <div class="vp-progress-slider"></div>
+        </div>
+        <div class="time-display">
+          <span class="js-duration">00:00</span>
+        </div>
       </div>
 
       <button class="js-fullscreen-button vp-button">
         <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
     </div>
-    
   </div>
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="player.js"></script>
